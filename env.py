@@ -3,10 +3,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", 0)
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", None)
-SUDOERS = list(map(int, os.getenv("SUDOERS", 0).split()))
+API_ID = 1747534
+API_HASH = "5a2684512006853f2e48aca9652d83ea"
+BOT_TOKEN = "7080419510:AAGga5Kfmhde42IVbhBejdJ1YLoIqbst6LM"
+SUDOERS = 6775943525
 MONGO_URL = os.getenv("MONGO_URL", None)
 LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", None)
 MUST_JOIN = os.getenv("MUST_JOIN", "")
